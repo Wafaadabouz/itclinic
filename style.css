@@ -1,0 +1,148 @@
+body{
+    font-family: sans-serif;
+}
+.navbar{
+    width: 100% ;
+    margin: auto ;
+    padding: 0px 0 ;
+    display: flex ;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #B4F2E1;
+
+}
+.logo{
+    width: 300px;
+    cursor: pointer;
+    position: absolute;
+    left: 90px;
+}
+.navbar ul li{
+    width: 154px;
+    list-style: none;
+    display: inline-block;
+    margin: 48px 21px;
+    position: relative;
+    left: 601px;
+
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: #000;
+    text-transform: uppercase;
+
+}
+.navbar ul li ::after{
+    content: '';
+    height: 2px;
+    width: 0;
+    background: #009688;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.5s;
+
+}
+.navbar ul li :hover::after{
+    width: 40%;
+    
+
+}
+button {
+    width: 200px;
+    height: 50px;
+    font-family: Medium 500 Italic;
+    font-size: 18px;
+    background-color: #33e7cca1;
+    color: white;
+    border-block: revert;
+    border-radius: 25px;
+    /* margin: 10px 10px; */
+    text-align: center;
+    font-weight: bold;
+    border: 2px solid;
+    cursor: pointer;
+}
+.home{
+    width: 100%;
+    height: 1019px;
+    background: url(./background2.png);
+    background-size: revert;
+    background-position: left bottom;
+    background-repeat: no-repeat;
+}
+.img-1{
+    width: 1000px;
+    height: 1000px;
+    position: absolute;
+    left: 878px;
+}
+.img-2{
+    width: 869px;
+    height: 820px;
+    position: absolute;
+    left: 904px;
+    bottom: -62px;
+}
+.big{
+    margin: 0px;
+    width: 83%;
+    padding: 6px;
+    font-family: Medium 500 Italic;
+    font-size: 37px;
+}
+.ktiba{
+    margin: 61px 34px;
+    padding: 6px 1080px 87px 8px;
+    font-size: 99px;
+}
+h3{
+    font-size: 35px;
+    width: 336px;
+}
+
+
+
+
+.about-us ul li{
+    width: 400px;
+    height: 398px;
+    list-style: none;
+    display: inline-block;
+    margin: 9px 21px;
+    position: relative;
+    background-color: white;
+    left: 13px;
+    box-shadow: 2px 2px 13px 4px rgb(194, 193, 193);
+    border-radius: 15px;
+    }        
+.about-us ul li img{
+    width: 402px; 
+    height: 321px;
+    
+    position: relative;
+   
+    left: 0px;
+    }
+ 
+.about-us h1{
+    margin: 100px 21px 37px 76px;
+    font-size: 64px;
+    display: inline-block;
+    border-bottom: 8px solid #EB6383;
+
+}
+
+.aboutus{
+    height: 200px;
+    width: 1090px;
+    font-size: 42px;
+    margin: -1px 201px;
+}
+h2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 48px;
+    margin: 8px;
+}
